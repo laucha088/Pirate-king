@@ -9,11 +9,13 @@ const app = new Application({
 	height: 480
 });
 
-const clampy: Sprite = Sprite.from("clampy.png");
-
-clampy.anchor.set(0.5);
-
-clampy.x = app.screen.width / 2;
-clampy.y = app.screen.height / 2;
-
-app.stage.addChild(clampy);
+//const clampy: Sprite = Sprite.from("clampy.png");
+const Perritococa: Sprite = Sprite.from("perritococa");
+Perritococa.anchor.set(200);
+//clampy.anchor.set(0.5);
+Perritococa.x = app.screen.width /2;
+Perritococa.y = app.screen.height /2;
+//clampy.x = app.screen.width / 2;
+//clampy.y = app.screen.height / 2;
+app.stage.addChild(Perritococa)
+//app.stage.addChild(clampy);
